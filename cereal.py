@@ -16,3 +16,6 @@ print(cer.head())
 print(cer.dtypes)
 print(cer.describe())
 
+#%%
+
+print(cer['mfr'].value_counts())
